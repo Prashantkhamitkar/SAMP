@@ -2,8 +2,10 @@ import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
+import { useNotificationPoller } from '../hooks/useNotifications'
 
 const DashboardLayout = () => {
+   useNotificationPoller();
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (

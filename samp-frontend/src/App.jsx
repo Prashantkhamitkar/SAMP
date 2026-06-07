@@ -35,6 +35,7 @@ import AdminCalendar from './pages/admin/Calendar'
 // Shared
 import Notifications from './pages/Notifications'
 import NotFound from './pages/NotFound'
+import FacultyProfile from './pages/faculty/Profile'
 
 const App = () => {
   return (
@@ -69,6 +70,7 @@ const App = () => {
               <Route path="/faculty/courses/new"      element={<FacultyCourseForm />} />
               <Route path="/faculty/courses/:id/edit" element={<FacultyCourseForm />} />
               <Route path="/faculty/courses/:id/grades" element={<FacultyGradeEntry />} />
+              <Route path="/faculty/profile" element={<FacultyProfile />} />
             </Route>
           </Route>
 

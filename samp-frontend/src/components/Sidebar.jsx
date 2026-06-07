@@ -21,6 +21,7 @@ const NAV_ITEMS = {
     { to: '/faculty/dashboard',   icon: LayoutDashboard, label: 'Dashboard'    },
     { to: '/faculty/courses',     icon: BookMarked,      label: 'My Courses'   },
     { to: '/notifications',       icon: Bell,            label: 'Notifications' },
+    { to: '/faculty/profile', icon: User, label: 'Profile' },
   ],
   ADMIN: [
     { to: '/admin/dashboard',     icon: LayoutDashboard, label: 'Dashboard'    },
