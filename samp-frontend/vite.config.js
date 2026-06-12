@@ -13,7 +13,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "http://localhost:8080",
+        target: "https://samp-api-production-55ac.up.railway.app",
         changeOrigin: true,
       },
     },
